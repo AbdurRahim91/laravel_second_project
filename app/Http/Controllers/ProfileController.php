@@ -23,7 +23,7 @@ class ProfileController extends Controller
         $cookieName = 'access_token';
         $cookieValue = '123-XYZ';
         $minutes = 1;
-        $path = '/profile/' . $id; 
+        $path = '/'; 
         $domain = $_SERVER['SERVER_NAME'];
         $secure = false;
         $httpOnly = true;
